@@ -1,6 +1,6 @@
 #include <iostream>
-#include "/Users/KI20449224/Downloads/FOS/include/admin.h"
-#include "/Users/KI20449224/Downloads/FOS/include/customer.h"
+#include "include/admin.h"
+#include "include/customer.h"
 
 using namespace std;
 

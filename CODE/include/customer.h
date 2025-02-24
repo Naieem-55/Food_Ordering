@@ -1,6 +1,7 @@
 #ifndef CUSTOMER_H
 #define CUSTOMER_H
-#include "/Users/KI20449224/Downloads/FOS/include/admin.h"
+#include "../include/admin.h"
+#include <vector>
 using namespace std;
 
 class Customer : public Admin 

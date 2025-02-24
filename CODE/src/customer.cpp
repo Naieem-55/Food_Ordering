@@ -94,7 +94,7 @@ void Customer::customerRegistartion()
     cin >> password;
 
     // Check if the user already exists
-    ifstream input("/Users/KI20449224/Downloads/FOS/data/customer_registration.csv");
+    ifstream input("../data/customer_registration.csv");
 
     // Loop through each line in the file
     while (input >> userEmail >> userPassword)
@@ -115,7 +115,7 @@ void Customer::customerRegistartion()
     }
 
     // Open the file for appending registration data
-    ofstream f1("/Users/KI20449224/Downloads/FOS/data/customer_registration.csv", ios::app);
+    ofstream f1("../data/customer_registration.csv", ios::app);
 
     // Write the user's email and password to the file
     f1 << email << " " << password << endl;
@@ -139,7 +139,7 @@ void Customer::customerLogin()
     cin >> password;
 
     // Read customer registration data from the file
-    ifstream input("/Users/KI20449224/Downloads/FOS/data/customer_registration.csv");
+    ifstream input("../data/customer_registration.csv");
 
     // Loop through each line in the file
     while (input >> userEmail >> userPassword)
@@ -263,7 +263,7 @@ void Customer::orderFoodItems()
     try
     {
         // Open the food items CSV file for reading
-        ifstream inputFile("/Users/KI20449224/Downloads/FOS/data/food_items.csv");
+        ifstream inputFile("../data/food_items.csv");
 
         // Check if the file is successfully opened
         if (!inputFile.is_open())

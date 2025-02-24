@@ -1,5 +1,7 @@
 #include <iostream>
 #include <fstream>
+#include <iomanip>
+#include <algorithm>
 #include <sstream>
 #include "../include/admin.h"
 
@@ -14,7 +16,7 @@ bool Admin::isAlpha(const string &str)
 }
 
 // Handles the admin login process
-void Admin ::adminLogin()
+void Admin::adminLogin()
 {
     // Admin credentials for authentication
     string userId = "admin";
@@ -189,7 +191,7 @@ void Admin::addFoodItems()
             }
         }
 
-        ofstream f1("/Users/KI20449224/Downloads/FOS/data/food_items.csv", ios::app);
+        ofstream f1("../data/food_items.csv", ios::app);
 
         f1 << foodCode << ", " << foodName << ", " << foodPrice << ", " << noOfFoodItems << ", " << availability << endl;
 
@@ -245,8 +247,8 @@ void Admin::updateFoodItems()
     }
     cin.ignore(256, '\n');
 
-    ifstream inputFile("/Users/KI20449224/Downloads/FOS/data/food_items.csv");
-    ofstream tempFile("/Users/KI20449224/Downloads/FOS/data/temp.csv");
+    ifstream inputFile("../data/food_items.csv");
+    ofstream tempFile("../data/temp.csv");
 
     bool found = false;
     string line;
@@ -329,8 +331,8 @@ void Admin::updateFoodItems()
     else
     {
         // Rename the temp file to replace the original file
-        remove("/Users/KI20449224/Downloads/FOS/data/food_items.csv");
-        rename("/Users/KI20449224/Downloads/FOS/data/temp.csv", "/Users/KI20449224/Downloads/FOS/data/food_items.csv");
+        remove("../data/food_items.csv");
+        rename("../data/temp.csv", "../data/food_items.csv");
         cout << "Food item updated successfully." << endl;
     }
 
@@ -379,8 +381,8 @@ void Admin::deleteFoodItems()
         }
         cin.ignore(256, '\n');
 
-        ifstream inputFile("/Users/KI20449224/Downloads/FOS/data/food_items.csv");
-        ofstream tempFile("/Users/KI20449224/Downloads/FOS/data/temp.csv");
+        ifstream inputFile("../data/food_items.csv");
+        ofstream tempFile("../data/temp.csv");
 
         bool found = false;
         string line;
@@ -417,8 +419,8 @@ void Admin::deleteFoodItems()
         else
         {
             // Rename the temp file to replace the original file
-            remove("/Users/KI20449224/Downloads/FOS/data/food_items.csv");
-            rename("/Users/KI20449224/Downloads/FOS/data/temp.csv", "/Users/KI20449224/Downloads/FOS/data/food_items.csv");
+            remove("../data/food_items.csv");
+            rename("../data/temp.csv", "../data/food_items.csv");
             cout << "Food item data deleted successfully." << endl;
         }
 
@@ -462,7 +464,7 @@ void Admin::showFoodItems()
 {
     try // Handle any potential exceptions that might occur during execution
     {
-        ifstream file("/Users/KI20449224/Downloads/FOS/data/food_items.csv");
+        ifstream file("../data/food_items.csv");
         if (!file.is_open())
         {
             throw runtime_error("Error opening file: food_items.csv");
