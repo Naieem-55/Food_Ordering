@@ -1,5 +1,7 @@
 🍽️ Food Ordering System
 
+<img src="https://github.com/Naieem-55/Food_Ordering/raw/main/food.jpg" alt="Delicious Food">
+
 Welcome to the Food Ordering System – a seamless and efficient way to order food online! This project simplifies the food ordering experience with a user-friendly interface and a well-structured backend. 🚀
 
 This is a **Food Ordering System** implemented in C++. The system provides two main functionalities:
