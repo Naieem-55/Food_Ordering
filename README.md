@@ -16,21 +16,21 @@ This is a **Food Ordering System** implemented in C++. The system provides two m
   - Customers can log in to browse the menu and place orders.
   - (Add more details about customer functionalities here.)
 
-🛒 **Order Food Online** – Browse and place orders from a variety of dishes.
+-🛒 **Order Food Online** – Browse and place orders from a variety of dishes.
 
-🔐 **User Authentication** – Secure login and registration for users.
+-🔐 **User Authentication** – Secure login and registration for users.
 
-📃 **Menu Management** – Admin can add, edit, or remove food items.
+-📃 **Menu Management** – Admin can add, edit, or remove food items.
 
-💳 **Payment Integration** – Easy and secure payment options.
+-💳 **Payment Integration** – Easy and secure payment options.
 
-📦 **Order Tracking** – Real-time order status updates.
+-📦 **Order Tracking** – Real-time order status updates.
 
-📊 **Dashboard** – Admin dashboard for order and customer management.
+-📊 **Dashboard** – Admin dashboard for order and customer management.
 
-🚀 ### Getting Started
+## 🚀 Getting Started
 
-## How to Run the Project
+ **How to Run the Project**
 
 1. **Clone the Repository**:
    ```bash
@@ -45,24 +45,22 @@ This is a **Food Ordering System** implemented in C++. The system provides two m
    ```bash
    ./food_ordering_system
    ```
-### Follow the On-Screen Instructions:
+   
+## Follow the On-Screen Instructions:
 
- **Choose 1** for Admin Login.
+ -**Choose 1** for Admin Login.
+ -**Choose 2** for Customer Login.
+ -**Choose 3** to Exit.
 
- **Choose 2** for Customer Login.
+## Contributing
+   Contributions are welcome! If you'd like to contribute, please follow these steps:
 
- **Choose 3** to Exit.
 
-### Contributing
-Contributions are welcome! If you'd like to contribute, please follow these steps:
+## 📞 Contact
 
-### Fork the repository.
+-📧 **Developer**: [Naieem Islam]
+-🔗 **GitHub**: Naieem-55
+-📌 **Project Repo**: Food Ordering System
 
-📞 ### Contact
-
-📧 **Developer**: [Naieem Islam]
-🔗 **GitHub**: Naieem-55
-📌 **Project Repo**: Food Ordering System
-
-### License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## License
+   This project is licensed under the MIT License. See the LICENSE file for details.
