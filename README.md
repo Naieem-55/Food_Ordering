@@ -1,4 +1,4 @@
-                                                                    **🍽️ Food Ordering System**
+<h1 align="center">🍽️ Food Ordering System</h1>
 
 <img src="https://github.com/Naieem-55/Food_Ordering/raw/main/food.jpg" alt="Delicious Food">
 
