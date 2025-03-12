@@ -2,10 +2,6 @@
 
 <img src="https://github.com/Naieem-55/Food_Ordering/raw/main/food.jpg" alt="Delicious Food">
 
-**# 🍽️ Food Ordering System**
-
-![Delicious Food](https://github.com/Naieem-55/Food_Ordering/raw/main/food.jpg)
-
 Welcome to the Food Ordering System – a seamless and efficient way to order food online! This project simplifies the food ordering experience with a user-friendly interface and a well-structured backend. 🚀
 
 ## 📌 Project Overview
